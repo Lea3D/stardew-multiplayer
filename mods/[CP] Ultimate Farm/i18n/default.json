@@ -1,0 +1,13 @@
+{
+    "uf.0": "[ {{FarmName}} Quarry^> {{FarmName}} Farm",
+    "uf.1": "CAUTION: Archaeological Dig Site^Authorised personnel only.^Direct queries to Gunther at Pelican Town Museum.",
+    "uf.2": "A dinosaur skeleton! There's a bone from a smaller animal stuck between its teeth.",
+    "uf.3": "A dinosaur skeleton! Its rib bones are taller than you are.",
+    "uf.4": "` {{FarmName}} Farm^{ Southwest Field^} Southeast Field^_ Cindersap Forest",
+    "uf.5": "` Northern Crop Fields^@ {{FarmName}} Quarry^_ Southwest Field",
+    "uf.6": "` Backwoods, Mountain^@ {{FarmName}} Farm Cave",
+    "uf.7": "{{FarmName}} Farm Shipping Bin^All items to be sold at the end of the day.",
+    "uf.8": "@ {{FarmName}} Farm^> Bus Stop",
+    "uf.9": "` Northern Crop Fields^> Livestock Pens^} {{FarmName}} Lake",
+    "uf.10": "` To Cindersap Forest^> Upper Southeast Field^_ Lower Southeast Field"
+}

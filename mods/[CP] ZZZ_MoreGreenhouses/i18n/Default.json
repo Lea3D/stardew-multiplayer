@@ -1,0 +1,42 @@
+{
+    "Config.Section.Options.name": "Options",
+    
+         "Config.Main Greenhouse Type.name": "Main Greenhouse Type",
+         "Config.Main Greenhouse Type.values.Mini": "Mini",
+         "Config.Main Greenhouse Type.values.Normal": "Normal",
+         "Config.Main Greenhouse Type.description": "Change Main Greenhouse Size (Requires Restart)",
+
+        "Config.Buildable Greenhouse.name": "Buildable Greenhouse",
+        "Config.Buildable Greenhouse.description": "Enable Normal Greenhouse Buildable",
+
+         "Config.Buildable Mini Greenhouse.name": "Buildable Mini Greenhouse",
+         "Config.Buildable Mini Greenhouse.description": "Enable Mini Greenhouse",
+
+    "Config.Section.Enable for Mod Compatability issues.name": "Enable for Mod Compatability issues",
+
+         "Config.Compatibility Mode.name": "Compatibility Mode",
+         "Config.Compatibility Mode.description": "This toggle bypasses any mod inputs and creates an independant building using its own assets",
+
+    "Config.Section.Cost Changes.name": "Cost Changes",
+        
+         "Config.Build Cost.name": "Build Cost",
+         "Config.Build Cost.description": "Main Price",
+
+         "Config.Materials.name": "Materials",
+         "Config.Materials.values.Normal": "Normal",
+         "Config.Materials.values.Cheap": "Cheap",
+         "Config.Materials.values.Free": "Free",
+         "Config.Materials.description": "Main Price",
+
+         "Config.Build Time.name": "Build Time",
+         "Config.Build Time.values.3 Days": "3 Days",
+         "Config.Build Time.values.2 Days": "2 Days",
+         "Config.Build Time.values.1 Day": "1 Day",
+         "Config.Build Time.values.Instant": "Instant",
+         "Config.Build Time.description": "Time Requirements", 
+
+    "Config.Greenhouse Requirements Unlock.name": "Greenhouse Requirements Unlock",   
+    
+         "Config.Build Requirements.name": "Build Requirements",
+         "Config.Build Requirements.description": "Toggle off for instant access to greenhouse if you havent unlocked at pantry yet"
+}

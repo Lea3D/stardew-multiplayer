@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="45" height="14" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="11">
+ <properties>
+  <property name="AmbientLight" value="90 90 35"/>
+  <property name="Warp" value="6 14 Farm 34 7 37 14 Farm 60 7"/>
+ </properties>
+ <tileset firstgid="1" name="cave" tilewidth="16" tileheight="16" tilecount="288" columns="16">
+  <image source="Mines/mine.png" width="256" height="288"/>
+ </tileset>
+ <tileset firstgid="289" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="325" name="z_cave_daisyextras" tilewidth="16" tileheight="16" tilecount="640" columns="20">
+  <image source="cave_daisyextras.png" width="320" height="512"/>
+ </tileset>
+ <tileset firstgid="965" name="z_townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <layer id="1" name="Back" width="45" height="14">
+  <data encoding="base64" compression="zlib">
+   eJztlOENgjAQRouygOIE6iq6gWO4CMgCuAEjqJOoEyArGC3xLnw520JJ8ZdNXlquPe61hGZKqcyDkG07MM/H9+/cOvvW5/GtB/vAzhuP2uiM8bPmYeAEa0K2nWdtPGeer2E/U02syTWVyG14Ri2+cW7oWlNNrj+hvhLuCtaU1CeCBcWvwnmmX/qIPv3FEpfrGYzf6f0rzZrGqXBCd3RuWNJ66Y05yCsyf09b3AR+21h9/3O5eJbOc4Mv7z815COpJV46clx5tnnTObNjIsah77qu8+xz1/Uh5L3hqnMc6Hxw5IztbKvd5VyM7OzaC9d2rfHhF63omH8DyKHi4A==
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back">
+  <object id="1" name="TileData" x="240" y="112" width="16" height="16">
+   <properties>
+    <property name="Spawnable" value="F"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="336" y="112" width="16" height="16">
+   <properties>
+    <property name="Spawnable" value="F"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Buildings" width="45" height="14">
+  <data encoding="base64" compression="zlib">
+   eJzFlUsvA2EUhs80QbsTCdofgHZpgfYHuJZ05VbXSNqgbpFQlJC47ZBgiwR7G3sra2u/AD9CvJN5v8yXRplphznJk/nOOd/J+ybnSyYlIinSDfrBAAiCEPNJ7Y7XdFG3DyRBFagGNfSg9KfAtDbXyf4wGAcTIAwizJfAMljx2K+pO0TdNBgD9aABNNJDKf1B9mfAAlgEURBjvgp2wZ7Hfk3dLHXnQQ40gWbQQg+l9DPs58E22AFxkGB+Ak5BL3eV1Hap3pKqqdw8h1gPanfVnOm3B6xTdwsUQBtoBx30oOufaZ7X2D+W7+MKXINR0CrWDt8MkXfwYVhvyayni+oR1sOc2QcHPJv1EXD0g26x/o3m+fCXGRVzYu8wGxB5hq9Pw3pLOfYyWj3GepTfc3Ch3Z11qKvioQzPm2LvsBbeXuGrLmC9pQJ7ej3BepzfW3Cn3d2owPOly1m/4klsz/f+WnEcL2J7fnQx5/U/xU2UM/tX/8JKtP3w65X2f3r1UtsPv061vwBQgZWD
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="5" name="TileData" x="240" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="MinecartTransport UltimateFarm UltimateFarmCave"/>
+   </properties>
+  </object>
+  <object id="10" name="TileData" x="336" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="MinecartTransport Default UltimateFarmCave"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Paths" width="45" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF9AaajKSJ09peetk/GAGpcTFQcTcKRsEooC+A5emByNuU2D2QZRG5dg9FNw9mAABQnAKh
+  </data>
+ </layer>
+ <objectgroup id="6" name="Paths"/>
+ <layer id="7" name="Front" width="45" height="14">
+  <data encoding="base64" compression="zlib">
+   eJzVVktOAzEMNd3w6wBrft1DgR6g0DnBnAHBaTgKB4HuYFeKBN0Ci54B3lNtsNL5JFKl0ic9JRPHn3gm9hQisgVugzctqcUOuBus5fUqvzguWTsBTyP1r8Bz8CLBp6HTEIed39ttg133XOfzGnm7Wxf53piXMacDjEVkrIa3NZGe/OUoU1v7GA9Ufub2DsFDzPsyy1XTuyTuEXNnsz6GVcNwBWPeW3YAieC32Ft2EIngHYq5E/8NqXXjA/xc4JiKXOLr8xP4Ak7A0QLH1wT/zzpnrX8AHxt0prqXNdZqs9VJq8f8zqxXGXjHs8AW9aynjiJ8M96J89NXG9QdyyyXdvZ3fR6rDvdeOltlvZdnGujc98m282lgT71txfnuOv1CSV/Wy75UNtV9rOHWk0NUrYdgLzyqkPH9UJ4FvunX3qXPV+7iLjQGOzfPRx0vj0HZf0jsXu+7ytYPgbBjhQ==
+  </data>
+ </layer>
+ <objectgroup id="8" name="Front"/>
+ <layer id="9" name="AlwaysFront" width="45" height="14">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAA8GCdgAAQ==
+  </data>
+ </layer>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>

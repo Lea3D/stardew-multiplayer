@@ -1,0 +1,11 @@
+{
+    "Name": "Ultimate Farm CP",
+    "Author": "DaisyNiko",
+    "Version": "2.3",
+    "UniqueID": "DaisyNiko.UltimateFarm",
+    "MinimumApiVersion": "2.11.0",
+    "UpdateKeys": ["Nexus:6348"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

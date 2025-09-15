@@ -1,0 +1,11 @@
+{
+    "Name": "Casks in buildings",
+    "Author": "IamSaulC",
+    "Version": "1.0.0",
+    "Description": "Allows you to add casks in all constructible buildings",
+    "UniqueID": "IamSaulC.CasksInBuildings",
+    "UpdateKeys": [ "Nexus:21631" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

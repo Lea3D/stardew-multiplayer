@@ -2,3 +2,4 @@ save*
 *.tar.gz
 conf*
 !*configure*
+mods*
